@@ -13,12 +13,18 @@ $(document).ready(function() {
 
 function parallax() {
   var scrolled = $(window).scrollTop();
-  $('.parallax').css('top', -(scrolled * 0.6) + 'px');
+  $('.container', '.parallax', '.container-2').css('top', -(scrolled * 0.6) + 'px');
 }
 
 $(window).scroll(function() {
     parallax();
 });
+
+$("a").click(function() {
+  $('html, body').animate( {
+    scrollTop: $( $.attr(this, 'href')).offset().top
+  }, 1000); return false
+})
 
 
 });
