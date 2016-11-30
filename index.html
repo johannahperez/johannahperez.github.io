@@ -2,7 +2,8 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="assets/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Quicksand:300|Montserrat:400,700|Karla:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Karla:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="assets/unslider.css">
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
   <script type="text/javascript" src="assets/js/waypoints.min.js" charset="utf-8"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -13,7 +14,6 @@
 </head>
 <body>
 
-  <!-- Navbar-->
   <ul class="navbar">
     <a href=".container">
       <li>About</li>
@@ -26,7 +26,6 @@
     </a>
   </ul>
 
-<!-- Title-->
   <div id="background-container">
     <img id="background-photo" src="assets/background1.png">
   </div>
@@ -37,31 +36,69 @@
         <div id="description">
           The unthinkable has happened. Our nation is torn and divided by an unexpected presidency. The
           Canadian Immigration Website is a mess. Coming January 2017, The Bubble offers a unique solution
-          for Progressive Americans everywhere. The Bubble is a planned community for like-minded thinkers,
-          and no one else. If you're an open minded person, come here and close yourself in!
+          for Progressive Americans everywhere. The Bubble is a planned community for like-minded thinkers
+          (and no one else). If you're an open minded person, come to The Bubble and close yourself in!
         </div>
     </section>
+
+    <div class="my-slider">
+	     <ul>
+		       <li>My slide</li>
+		         <li>Another slide</li>
+		           <li>My last slide</li>
+	            </ul>
+          </div>
 
     <div class="parallax">
       <div id="black"></div>
       <div class="features">Features</div>
       </div>
 
-    <div class="container-2">
+      <section class="container-2">
+          <div id="header">All your favorites.</div>
+          <div id="description">
+            The Bubble includes everything Progressive Americans love. Stay intelligent and above the
+            rest of America by shopping at our used bookstores. Continue to fight global warming by driving
+            our wide array of hybrid cars (the <i>only</i> vehicles allowed at The Bubble!). Whatever you need,
+            as long as it's approved by Progressives, it's here.
+          </div>
+      </section>
+
+    <div class="container-3">
           <div class="grid-container">
+            <div class="grid-text">Hybrid Cars</div>
             <img src="assets/cars.png" class="grid-pic">
-          </div>
+            <span class="text-content"><span>
+              Hybrid cars are the best and <i>only</i> way to get around! With these cars,
+              you can keep up an environmentally friendly lifestyle and protest against oil companies <br>all at
+              the same time.
+            </span></span>
+        </div>
           <div class="grid-container">
+            <div class="grid-text">Used Bookstores</div>
             <img src="assets/bookstore.png" class="grid-pic">
+            <span class="text-content"><span>
+              Continued education is the solution to the world's most pressing problems. The Bubble has a
+              diverse selection of stores selling books by Zadie Smith, Karl Marx, Robert Reich, and more.
+            </span></span>
           </div>
           <div class="grid-container">
+            <div class="grid-text">Fresh Milk</div>
             <img src="assets/milk.png" class="grid-pic">
+            <span class="text-content"><span>
+              Our organic milk is sourced from farms selling sustainable food. All food at
+              The Bubble is raw, fresh, and always served in mason jars or wooden plates.
+            </span></span>
+            </div>
           </div>
-          <div id="header-2">
-          The Bubble includes everything that progressive Americans love.</div>
+          <!-- <div id="header-2">
+          The Bubble includes everything that progressive Americans love.</div> -->
         </div>
         </div>
       </section>
+
+      <div class="container-4">
+
 
     Forget about whatever is happening
     out in <i>their</i> America, and retreat to a calm, closed, and single-minded community in The Bubble.
@@ -70,7 +107,14 @@
   <div id="footer">
     <div class="footer-text">THE BUBBLE</div>
     <div class="inspiration">This site was inspired by <a href="https://www.youtube.com/watch?v=vKOb-kmOgpI">this</a> SNL skit.</div>
+    <div id="social-media-container">
+      <img class="media" src="assets/linkedin.svg">
+      <img class="media" src="assets/facebook.svg">
+      <img class="media" src="assets/img/wordpress-logo.svg">
+    </div>
   </div>
 
+  <script src="code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="assets/js/unslider.js"></script>
 </body>
 </html>
