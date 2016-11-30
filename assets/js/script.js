@@ -26,9 +26,15 @@ $("a").click(function() {
   }, 1000); return false
 })
 
-$('.my-slider').unslider(); {
-
+$('.faq_question').click(function() {
+		if ($(this).parent().is('.open')){
+			$(this).closest('.faqs').find('.faq_answer_container').animate({'height':'0'},500);
+			$(this).closest('.faqs').removeClass('open');
+			} else{
+				var newHeight =$(this).closest('.faqs').find('.faq_answer').height() +'px';
+				$(this).closest('.faqs').find('.faq_answer_container').animate({'height':newHeight},500);
+				$(this).closest('.faqs').addClass('open');
+			}
 })
-
 
 });
