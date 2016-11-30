@@ -14,10 +14,10 @@ div {
   position: absolute;
   height: 20px;
   bottom: -0px !important;
-  background-color: #FFFEFC;
+  background-color: #FCFCFC;
   padding: 20px 0;
   margin: 0px 0px -1px;
-  opacity: 0.8;
+  opacity: 1;
   width: 100%;
   z-index: 1000;
   text-align: center;
@@ -366,7 +366,7 @@ span.text-content span {
   text-transform: uppercase;
   color: #222222;
   left: 70px;
-  top: 25px;
+  top: 28%;
   position: relative;
 }
 
@@ -413,7 +413,7 @@ opacity: 1;
   height: 120px;
   width: 100%;
   display: block;
-  padding: 0px 0px 45px;
+  padding: 0px 0px 55px;
 }
 
 #final {
@@ -426,3 +426,8 @@ opacity: 1;
   top: 50vh;
   padding: 40px 50px 30px;
 }
+
+@media (max-width: 1440px) {
+}
+
+@media (max-width: 900px) {
