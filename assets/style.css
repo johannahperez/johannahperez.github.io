@@ -57,6 +57,7 @@ div {
   position: relative;
   left: 0;
   right: 0;
+  background-repeat: no-repeat;
 }
 
 #background-photo {
@@ -141,6 +142,7 @@ div {
 
 .parallax {
   background-image: url("one.png");
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   height: 600px;
@@ -231,7 +233,6 @@ div {
 }
 
 .grid-container:hover {
-  cursor: pointer;
 }
 
 span.text-content {
@@ -244,15 +245,14 @@ span.text-content {
   height: 315px;
   left: 0;
   top: 0;
-  width: 315px;
   opacity: 0;
+  padding: 0px 20px;
 }
 
 span.text-content span {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
-
 }
 
 .container-3 .grid-container span.text-content {
@@ -284,6 +284,7 @@ span.text-content span {
 .parallax-2 {
   background-image: url("two.png");
   background-attachment: fixed;
+  background-repeat: no-repeat;
   background-position: center;
   height: 600px;
   width: 100%;
@@ -365,7 +366,7 @@ span.text-content span {
   text-align: center;
   text-transform: uppercase;
   color: #212121;
-  left: 70px;
+  left: 3vw;
   top: 28%;
   position: relative;
 }
@@ -377,7 +378,7 @@ span.text-content span {
   text-align: center;
   color: #212121;
   position: relative;
-  left: 7%;
+  left: 4%;
   top: 43%;
 }
 
@@ -385,7 +386,7 @@ span.text-content span {
   text-decoration: none;
   font-weight: 900;
   color: #212121;
-  cursor: hover;
+  cursor: pointer;
 }
 
 #social-media-container .media {
@@ -394,9 +395,9 @@ opacity: 0.8;
 transition: 0.2s;
 display: inline-block;
 float: right;
-right: 50px;
-top: 44px;
-padding: 0px 10px;
+right: 5vw;;
+top: 7vh;
+padding: 0px 1vw;
 position: relative;
 }
 
@@ -436,6 +437,9 @@ opacity: 1;
 
 }
 @media (max-width: 1440px) {
+
 }
 
 @media (max-width: 900px) {
+
+}
